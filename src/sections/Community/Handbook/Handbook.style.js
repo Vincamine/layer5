@@ -1,6 +1,8 @@
 import styled from "styled-components";
 export const HandbookWrapper = styled.div`
-
+    display: flex;
+    flex-direction: row;
+    align-items: top;
     .content > a:first-of-type > h2:first-of-type {
       padding-top: 1rem;
     }
@@ -76,7 +78,7 @@ export const HandbookWrapper = styled.div`
         padding: 0;
         width: 250px;
         background-color:${(props) => props.theme.secondaryLightColor};
-        position: absolute;
+        // position: ;
         height: 150rem;
         overflow: auto;
         transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
